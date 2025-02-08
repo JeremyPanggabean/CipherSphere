@@ -42,15 +42,15 @@ Ensure you have **Python 3.x** installed.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/JeremyPanggabean/Python-Slot_Machine.git
+   git clone https://github.com/JeremyPanggabean/Python-Slot-Machine.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Python-Slot_Machine
+   cd Python-Slot-Machine
    ```
 3. Run the game:
    ```bash
-   python slot_machine.py
+   Python Slot Machine.py
    ```
 
 ---
