@@ -50,7 +50,7 @@ Ensure you have **Python 3.x** installed.
    ```
 3. Run the game:
    ```bash
-   Python Slot Machine.py
+   "Python Slot Machine.py"
    ```
 
 ---
