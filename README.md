@@ -1,94 +1,60 @@
-# Python Slot Machine
+# CipherSphere: Command-Line Cipher Tool
 
-## 🎰 Overview
+Welcome to **CipherSPhere**, encryption and decryption tool for the command line. Featuring colorful outputs and interactive animations, this project brings a refreshing twist to traditional substitution ciphers.
 
-The **Python Slot Machine** is a fun and simple terminal-based game that simulates a slot machine experience. Players can spin the reels, place bets, and win payouts based on symbol combinations.
+## ✨ Features
 
----
+- **Encrypt and Decrypt Messages:** Secure your secrets with ease.
+- **Key Mapping Display:** View the detailed substitution key.
+- **Dynamic Key Regeneration:** Generate cryptographically secure keys.
+- **Modern UI:** Enjoy a visually appealing and engaging command-line experience with animations and rich text.
 
-## 🧩 Features
-
-- **Random Reel Spin:** Generates random symbols for each spin.
-- **Symbol Payouts:** Different payout multipliers based on symbol matches.
-- **User Balance Management:** Tracks the user's current balance.
-- **Interactive Gameplay:** Continuous play with the option to quit.
-
----
-
-## 📜 Game Instructions
-
-### How to Play
-
-1. **Starting Balance:** Players begin with $100.
-2. **Place a Bet:** Input a positive bet amount that does not exceed your current balance.
-3. **Spin the Reels:** Watch the symbols spin and check if you win.
-4. **Payouts:** Win based on the following combinations:
-   - 🍒 Cherry : 3x your bet
-   - 🍉 Watermelon: 4x your bet
-   - 🍋 Lemon : 5x your bet
-   - 🔔 Bell : 10x your bet
-   - ⭐ Star : 20x your bet
-5. **Continue or Quit:** Choose whether to play again or exit.
-
----
-
-## 💻 How to Run
-
-### Prerequisites
-
-Ensure you have **Python 3.x** installed.
-
-### Steps to Run
+## 🚀 Installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/JeremyPanggabean/Python-Slot-Machine.git
+   git clone https://github.com/your-username/CipherSphere.git
+   cd CipherSPhere
    ```
-2. Navigate to the project directory:
+2. Install the required packages:
    ```bash
-   cd Python-Slot-Machine
-   ```
-3. Run the game:
-   ```bash
-   "Python Slot Machine.py"
+   pip install -r requirements.txt
    ```
 
----
+## 🛠 Usage
 
-## 🔧 Code Breakdown
+Run the program by executing:
 
-### Key Functions
+```bash
+python encryption program.py
+```
 
-- `spin_row()`: Generates a random row of symbols.
-- `print_row(row)`: Displays the slot machine row.
-- `get_payout(row, bet)`: Calculates the payout based on the row and bet amount.
-- `print_game_instructions()`: Displays game instructions.
-- `main()`: Handles the main game logic and user interactions.
+Follow the interactive menu to encrypt or decrypt messages, display key mappings, and more.
 
-### Error Handling
+## 🔧 Requirements
 
-- Validates bet amounts (non-negative and within balance).
-- Ensures valid input for game continuation.
-- Provides user-friendly messages for errors.
+- Python 3.7+
+- `rich`
+- `termcolor`
 
----
-
-## 🏆 Sample Gameplay
+## 📚 Example
 
 ```plaintext
-🎰 WELCOME TO PYTHON SLOT MACHINE 🎰
-=== GOOD LUCK! ===
-
-Current balance: $100
-Place your bet amount: 10
-Spinning...
-*************
-🍒 | 🍋 | 🍉
-*************
-Sorry you lost this round
-
-Do you want to spin again? (Y/N): N
-*******************************************
-Game over! Your final balance is $90
-*******************************************
+=== Substitution Cipher Menu ===
+1. Encrypt a message
+2. Decrypt a message
+3. Show current key mapping
+4. Generate a new key (Super Secure Shuffle)
+5. Exit
+Choose an option: 1
+Enter a message to encrypt: Hello World
+Encrypted message: Zx8g!vX_m6w
 ```
+
+## 🤩 Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## 📜 License
+
+This project is licensed under the MIT License.
